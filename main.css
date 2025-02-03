@@ -1,0 +1,38 @@
+.back{
+    background: linear-gradient(rgb(254, 130, 130),rgb(63, 132, 201)); 
+}
+.otctyp{
+    padding: 10px;
+    margin-top:5px
+}
+.centre{ 
+    text-align:center;
+}
+.photo{
+    vertical-align:middle;
+    width:38pt;
+    height:38pt;
+}
+.module{
+    border-style: ridge;
+    margin: 15pt;
+    padding: 15pt;
+    width: 20%;
+    background: linear-gradient(rgb(63, 132, 201),rgb(254, 130, 130)); 
+    display: inline-block;
+    vertical-align: top;
+    height: 450pt;
+}
+.tanki{
+    width:200pt; 
+    height:200pt;
+}
+.content{
+    text-align: center;
+}
+
+@media(max-width:1400px){
+    .module{
+        width: 200pt;
+    }
+}
